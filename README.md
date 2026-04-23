@@ -1,6 +1,19 @@
 # Socket
 C++ socket wrapper: OOP hierarchy for Stream/Datagram sockets and SocketAddress (AF_INET/AF_UNIX).
 
+pr1.cpp — датаграммный отправитель
+
+SocketAddress.hpp — реализация адресов
+
+Socket.hpp — полные классы
+
+server.cpp — TCP сервер
+
+pr2.cpp — датаграммный приёмник
+
+client.cpp — TCP клиент
+
+
 Реализовать две иерархии классов: 	Socket (для дескрипторов сокетов) и 
 SocketAddress (для адресов сокетов в разных доменах). 
 Класс SocketAddress представляет собой интерфейс сокетного адреса для разных доменов и содержит три абстрактные операции: 
